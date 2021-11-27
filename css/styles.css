@@ -1,0 +1,136 @@
+                              :root {
+                                 --theme-color: #2996f3;
+                                 --text-primary: #212121;
+                                 --text-secondary: #757575;
+                                 --text-secondary-lighter: #ffffff;
+                                 --primary-font: 'Roboto';
+                                 --secondary-font: 'Raleway';
+                             }
+                             
+                             body {
+                                 background: #f5f2ef;
+                                 font-family: var(--primary-font), sans-serif;
+                                 color: var(--text-primary);
+                             }
+                             
+                             a {
+                                 text-decoration: none;
+                             }
+                             
+                             ul,
+                             ol {
+                                 list-style: none;
+                             }
+                             /*=======header-footer styles================*/
+                             
+                             .logo {
+                                 color: var(--theme-color);
+                                 font-family: var(--secondary-font);
+                                 font-style: normal;
+                                 font-weight: bold;
+                                 font-size: 26px;
+                                 line-height: 1.2;
+                             }
+                             
+                             .studioword {
+                                 color: #000;
+                             }
+                             
+                             .nav-links .nav-item {
+                                 color: #212121;
+                                 font-family: var(--primary-font);
+                                 font-style: normal;
+                                 font-weight: 500;
+                                 font-size: 14px;
+                                 line-height: 1.14;
+                                 letter-spacing: 0.02em;
+                             }
+                             
+                             .nav-links .nav-item:hover,
+                             .nav-links .nav-item:focus {
+                                 color: #2996f3;
+                             }
+                             
+                             address {
+                                 font-family: Roboto;
+                                 font-style: normal;
+                                 font-weight: normal;
+                                 font-size: 14px;
+                                 line-height: 1.7;
+                                 letter-spacing: 0.03em;
+                             }
+                             
+                             .contact-box-text {
+                                 color: var(--text-secondary);
+                                 font-family: var(--primary-font);
+                                 font-style: normal;
+                                 font-weight: 500;
+                                 font-size: 14px;
+                                 line-height: 1.14;
+                                 letter-spacing: 0.02em;
+                             }
+                             
+                             .contact-box-text:hover,
+                             .contact-box-text:focus {
+                                 color: var(--theme-color);
+                             }
+                             
+                             .studiowordfooter {
+                                 color: var #ffffff;
+                             }
+                             /*==========header-footer style end===============*/
+                             /* ===================Buttons style start======================= */
+                             
+                             .buttons {
+                                 background-color: #F5F4FA;
+                                 border: none;
+                                 color: #212121;
+                                 font-family: var(--primary-font);
+                                 font-weight: 500;
+                                 font-size: 16px;
+                                 line-height: 1.6;
+                                 text-align: center;
+                                 cursor: pointer;
+                                 border-radius: 4px;
+                             }
+                             
+                             .buttons:hover,
+                             .buttons:focus {
+                                 background-color: #2996f3;
+                                 color: var(--text-secondary-lighter);
+                             }
+                             /* =======================Buttons style end================= */
+                             /* ********************************************************************** */
+                             /*========== Main style start =====================*/
+                             
+                             .hero-title {
+                                 font-style: normal;
+                                 font-weight: 900;
+                                 font-size: 44px;
+                                 line-height: 1.36px;
+                                 text-align: center;
+                                 letter-spacing: 0.06em;
+                                 text-transform: uppercase
+                             }
+                             /*========== Main style start =====================*/
+                             /* ============Portfolio style start */
+                             
+                             .work-example-list a>h3 {
+                                 color: var(--text-primary);
+                                 font-family: Roboto;
+                                 font-style: normal;
+                                 font-weight: bold;
+                                 font-size: 18px;
+                                 line-height: 2;
+                                 letter-spacing: 0.06em;
+                             }
+                             
+                             .work-example-list a>p {
+                                 color: var(--text-secondary);
+                                 font-family: Roboto;
+                                 font-style: normal;
+                                 font-weight: normal;
+                                 font-size: 16px;
+                                 line-height: 1.87;
+                                 letter-spacing: 0.03em;
+                             }
