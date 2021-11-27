@@ -40,8 +40,6 @@ ol {
 
 .nav-links .nav-item {
     color: #212121;
-    font-style: normal;
-    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -66,7 +64,6 @@ address {
 
 .contact-box-mail {
     color: var(--text-secondary);
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -75,7 +72,6 @@ address {
 
 .contact-box-phone {
     color: var(--text-secondary);
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -213,8 +209,6 @@ address {
 
 .work-example-list a>h3 {
     color: var(--text-primary);
-    font-style: normal;
-    font-weight: bold;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
