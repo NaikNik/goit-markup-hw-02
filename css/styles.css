@@ -40,12 +40,15 @@ ol {
 
 .nav-links .nav-item {
     color: #212121;
-    font-family: var(--primary-font);
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+}
+
+.nav-links .nav-item.current {
+    color: var(--theme-color);
 }
 
 .nav-links .nav-item:hover,
@@ -54,7 +57,6 @@ ol {
 }
 
 address {
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -64,7 +66,6 @@ address {
 
 .contact-box-mail {
     color: var(--text-secondary);
-    font-family: var(--primary-font);
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -74,7 +75,6 @@ address {
 
 .contact-box-phone {
     color: var(--text-secondary);
-    font-family: var(--primary-font);
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -136,18 +136,23 @@ address {
 /*========== Main style start =====================*/
 
 .hero-title {
-    font-style: normal;
+    color: var(--text-secondary-lighter);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36px;
     text-align: center;
     letter-spacing: 0.06em;
-    text-transform: uppercase
+    text-transform: uppercase;
+}
+
+.hero-back {
+    background-color: #2F303A;
 }
 
 .advantages-list-item h3 {
     color: var(--text-primary);
-    font-style: normal font-weight: bold;
+    font-style: normal;
+    font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -187,7 +192,7 @@ address {
 
 .staff-member {
     color: var(--text-primary);
-    font-family: var(--primary-font) font-style: normal;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -208,7 +213,6 @@ address {
 
 .work-example-list a>h3 {
     color: var(--text-primary);
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -220,21 +224,12 @@ address {
     color: var(--theme-color);
 }
 
-.work-example-link>p:hover {
-    color: var(--theme-color);
-}
-
 .work-example-link>h3:focus {
-    color: var(--theme-color);
-}
-
-.work-example-link>p:focus {
     color: var(--theme-color);
 }
 
 .work-example-list a>p {
     color: var(--text-secondary);
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
